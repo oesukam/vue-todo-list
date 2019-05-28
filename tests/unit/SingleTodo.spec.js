@@ -26,7 +26,7 @@ describe('SingleTodo.vue', () => {
       const wrapper = shallowMount(SingleTodo, {
         propsData
       });
-      wrapper.find('#btn-check').trigger('click');
+      wrapper.find('.btn-check').trigger('click');
     });
   });
 
@@ -35,7 +35,7 @@ describe('SingleTodo.vue', () => {
       const wrapper = shallowMount(SingleTodo, {
         propsData
       });
-      wrapper.find('#btn-delete').trigger('click');
+      wrapper.find('.btn-delete').trigger('click');
     });
   });
 });

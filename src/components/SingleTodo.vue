@@ -3,10 +3,10 @@
     <div class="todo__index">{{Number(index) + 1}}.</div>
     <div class="todo__text">{{todo.text}}</div>
     <div class="todo__actions">
-      <button id="btn-check" class="btn btn-light" @click="checkTodo(todo.id)">
+      <button class="btn btn-light btn-check" @click="checkTodo(todo.id)">
         <i :class="['fas fa-check-circle', {active: todo.done }]"/>
       </button>
-      <button id="btn-delete" class="btn btn-light" @click="removeTodo(todo.id)">
+      <button class="btn btn-light btn-delete" @click="removeTodo(todo.id)">
         <i class="fa fa-trash"/>
       </button>
     </div>
@@ -78,7 +78,7 @@ export default {
   color: #209cee;
 }
 
-#btn-check {
+.btn-check {
   margin-right: 10px;
 }
 </style>

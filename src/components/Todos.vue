@@ -6,6 +6,7 @@
           <h1 class="title has-text-centered">My Todos</h1>
           <div class="input-group mb-5">
             <input
+              id="input-text"
               class="form-control"
               placeholder="Enter your todo"
               name="text"
