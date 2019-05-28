@@ -1,7 +1,7 @@
 {
-  "name": "vue-cypress",
-  "version": "0.1.0",
-  "private": true,
+  "name": "todo-list-with-vuejs",
+  "version": "1.0.0",
+  "description": "A todo list app",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -10,6 +10,8 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2",
+    "bootstrap": "^4.3.1",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",

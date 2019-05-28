@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleTodo.vue renders correctly 1`] = `
+<div
+  class="todo"
+>
+  <div
+    class="todo__index"
+  >
+    NaN.
+  </div>
+   
+  <div
+    class="todo__text"
+  >
+    Testing hints
+  </div>
+   
+  <div
+    class="todo__actions"
+  >
+    <button
+      class="btn btn-light"
+      id="btn-check"
+    >
+      <i
+        class="fas fa-check-circle"
+      />
+    </button>
+     
+    <button
+      class="btn btn-light"
+      id="btn-delete"
+    >
+      <i
+        class="fa fa-trash"
+      />
+    </button>
+  </div>
+</div>
+`;
