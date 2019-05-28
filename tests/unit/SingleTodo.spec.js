@@ -27,6 +27,7 @@ describe('SingleTodo.vue', () => {
         propsData
       });
       wrapper.find('.btn-check').trigger('click');
+      expect(wrapper.props().todo).toHaveProperty('done');
     });
   });
 
@@ -36,6 +37,7 @@ describe('SingleTodo.vue', () => {
         propsData
       });
       wrapper.find('.btn-delete').trigger('click');
+      expect(wrapper.props().todo).toHaveProperty('id');
     });
   });
 });
